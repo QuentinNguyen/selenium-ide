@@ -3,7 +3,7 @@ services:
   nginx:
     image: "nginx:stable-alpine"
     ports:
-      - "8080:80"
+      - "8081:80"
     volumes:
       - "./tests/static:/usr/share/nginx/html:ro"
   selenium:

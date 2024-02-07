@@ -1,7 +1,7 @@
 {
   "id": "b4675761-fdf4-4799-a7b0-989dd0f481f0",
   "name": "Store Examples Project",
-  "url": "http://localhost:8080",
+  "url": "http://localhost:8081",
   "tests": [{
     "id": "1f270ca5-5a7c-4067-8f67-b4fc0dcea00b",
     "name": "attributes",
@@ -96,7 +96,7 @@
     "timeout": 300,
     "tests": ["1f270ca5-5a7c-4067-8f67-b4fc0dcea00b", "e68f3128-4bea-4a35-999f-31466d7b4340"]
   }],
-  "urls": ["https://en.wikipedia.org/", "http://localhost:8080/"],
+  "urls": ["https://en.wikipedia.org/", "http://localhost:8081/"],
   "plugins": [],
   "version": "1.0"
 }

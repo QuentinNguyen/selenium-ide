@@ -24,7 +24,7 @@ import { TestShape } from '@seleniumhq/side-model'
 
 jest.setTimeout(30000)
 
-const port = 8080
+const port = 8081
 describe('Playback using webdriver', () => {
   let driver: WebDriver, executor: WebDriverExecutor, variables: Variables
   beforeAll(async () => {
