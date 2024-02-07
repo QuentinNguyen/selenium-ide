@@ -81,7 +81,7 @@ proxyType: direct
 ##### manual proxy
 
 Manually configures the browser proxy.  
-```selenium-side-runner --proxy-type=manual --proxy-options="http=localhost:434 bypass=[http://localhost:434, http://localhost:8081]"```
+```selenium-side-runner --proxy-type=manual --proxy-options="http=localhost:434 bypass=[http://localhost:434, http://localhost:8080]"```
 
 ```yaml
 proxyType: manual
@@ -90,7 +90,7 @@ proxyOptions:
   https: http://localhost:434
   ftp: http://localhost:434
   bypass:
-    - http://localhost:8081
+    - http://localhost:8080
     - http://host:434
     - http://somethingelse:32
 ```

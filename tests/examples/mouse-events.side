@@ -2,7 +2,7 @@
   "id": "7dd80c22-6001-4626-b538-7274216f4f5d",
   "version": "2.0",
   "name": "mouse-events",
-  "url": "http://localhost:8081/",
+  "url": "http://localhost:8080/",
   "tests": [{
     "id": "13f262bf-d342-4d03-9c5d-3d0b019ae854",
     "name": "mouse sequence",
@@ -122,6 +122,6 @@
     "timeout": 300,
     "tests": ["13f262bf-d342-4d03-9c5d-3d0b019ae854"]
   }],
-  "urls": ["http://localhost:8081/"],
+  "urls": ["http://localhost:8080/"],
   "plugins": []
 }

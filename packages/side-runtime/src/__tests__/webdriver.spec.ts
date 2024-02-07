@@ -27,7 +27,7 @@ import WebDriverExecutor from '../webdriver'
 
 jest.setTimeout(30000)
 
-const port = 8081
+const port = 8080
 describe('webdriver executor', () => {
   it('should implement all the Selenium commands', () => {
     Object.keys(Commands).forEach((command) => {

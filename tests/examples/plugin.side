@@ -2,7 +2,7 @@
   "id": "8e43685a-112a-455b-a6b2-748a19071100",
   "version": "2.0",
   "name": "Plugin",
-  "url": "http://localhost:8081/",
+  "url": "http://localhost:8080/",
   "tests": [
     {
       "id": "58cc1d1f-7920-47ee-a0eb-336a3ebdf069",
