@@ -24,7 +24,7 @@ jobs:
         name: install de node
       - run : curl -fsSL https://deb.nodesource.com/setup_lts.x | sudo -E bash - && sudo apt-get install -y nodejs
         name: Install pnpm
-      - run : sudo ps -ef | grep node && ps -ef
+      - run : sudo lsof -i :8080
       - uses: pnpm/action-setup@v2
         with:
           version: 8.11.0
