@@ -1,4 +1,4 @@
-name: 'Test Selenium IDE on mac '
+name: 'Test Selenium IDE on mac'
 
 on:
   workflow_dispatch:

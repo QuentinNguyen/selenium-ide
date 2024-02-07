@@ -1,4 +1,4 @@
-name: 'Test Selenium IDE on ubuntu '
+name: 'Test Selenium IDE on ubuntu'
 
 on:
   workflow_dispatch:
