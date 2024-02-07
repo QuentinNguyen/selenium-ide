@@ -20,6 +20,7 @@ jobs:
     runs-on: windows-latest
     steps:
       - uses: actions/checkout@v4
+      - run: winget install OpenJS.NodeJS.LTS
       - uses: pnpm/action-setup@v2
         with:
           version: 8
